@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-display">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150x200" alt="Product Image">
+                <h3>Product Name</h3>
+                <p>Description of the product goes here</p>
+                <p>$10.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150x200" alt="Product Image">
+                <h3>Product Name</h3>
+                <p>Description of the product goes here</p>
+                <p>$12.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150x200" alt="Product Image">
+                <h3>Product Name</h3>
+                <p>Description of the product goes here</p>
+                <p>$8.00</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <div class="pay-section">
+                <h3>Total: $0.00</h3>
+                <button id="pay-btn">Pay</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
